@@ -17,7 +17,7 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
+No output
 
 
 ==========
@@ -27,19 +27,41 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
+Displays a Syntax error unexpected token 'newline'
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-
-
+Display all 2997 possibilities? (y or n)
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+!                                      mono32
+./                                     mono64
+2to3                                   monodis
+2to3-                                  monodocer
+2to3-2                                 monodocs2html
+2to3-2.7                               monodocs2slashdoc
+411toppm                               monograph
+4channels                              monolinker
+:                                      monop
+AppleFileServer                        monop2
+AssetCacheLocatorUtil                  montage
+AssetCacheManagerUtil                  moo-outdated
+AssetCacheTetheratorUtil               moo-outdated5.18
+BootCacheControl                       moose-outdated
+BuildStrings                           moose-outdated5.18
+ClassInitGenerator                     more
+CpMac                                  mount
+DeRez                                  mount_acfs
+DevToolsSecurity                       mount_afp
+DirectoryService                       mount_apfs
+FileStatsAgent                         mount_cd9660
+GetFileInfo                            mount_cddafs
+GraphicsMagick++-config                mount_devfs
+--More--
 
 
 ==========
