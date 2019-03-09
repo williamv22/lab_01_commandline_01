@@ -17,18 +17,8 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-AMALogger20190109.log	Library			baz.txt
-AMALogger20190130.log	MPLABXProjects		google.png
-AMALogger20190204.log	Movies			ipe.properties
-AMALogger20190206.log	Music			isus
-AMALogger20190213.log	New Unity Project	metc1002
-AaronM-MTEC1003		Pictures		mtec1003-lab-03
-Adlm			Public			mtec1003labs
-Adobe			QLData			nano.save
-Applications		Things			puppies.jpg
-Desktop			Untitled-6.ai		pymel.log
-Documents		animals			qux.txt
-Downloads		animals 2		xgen
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures	isus
 
 ==========
 2a. Type: 
@@ -37,13 +27,14 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-Gives a list of everything in the directory that starts with ls.
+Desktop/Documents/ Downloads/
+Basically it shows the path of your directories 
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-Display all 2997 possibilities? (y or n)
+Display all 1379 possibilities? (y or n)y
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
@@ -92,6 +83,7 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
+.		..		.localized
 
 
 ==========
@@ -148,7 +140,7 @@ ls: doesnotexist: No such file or directory
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+tab
 
 
 ==========
@@ -160,7 +152,7 @@ ls
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+-a
 
 
 ==========
@@ -179,7 +171,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
+-bash: foo: command not found
 
 
 ==========
@@ -189,4 +181,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
-command is ls, flag is -a, argument is Desktop 
+command is ls, flag is -a, argument -a, prompt is Desktop 
